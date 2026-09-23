@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jose Luis Hoyos Salazar | Estudiante de Ingeniería de Sistemas</title>
+  <meta name="description" content="Portafolio de Jose Luis Hoyos Salazar, estudiante de Ingeniería de Sistemas en Cali, Colombia. Desarrollo web y análisis de datos.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧾</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  <header class="barra">
+    <div class="contenedor barra__interior">
+      <a href="#inicio" class="barra__marca">Jose Luis Hoyos</a>
+      <button class="barra__boton" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="menu" class="barra__menu">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#formacion">Formación</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- INICIO -->
+    <section id="inicio" class="portada">
+      <div class="contenedor portada__rejilla">
+        <div class="portada__texto">
+          <img src="img/foto.jpg" alt="Foto de Jose Luis Hoyos Salazar" class="portada__foto" width="96" height="96">
+          <h1>Jose Luis Hoyos Salazar</h1>
+          <p class="portada__rol">Estudiante de Ingeniería de Sistemas en Cali, Colombia. Construyo páginas web y me estoy formando en análisis de datos.</p>
+          <p class="portada__estado"><span class="punto" aria-hidden="true"></span> Disponible para práctica profesional de 6 meses</p>
+          <div class="portada__acciones">
+            <a href="#proyectos" class="boton boton--principal">Ver proyectos</a>
+            <a href="docs/Hoja_de_Vida_Jose_Luis_Hoyos.pdf" class="boton boton--secundario" download>Descargar hoja de vida</a>
+          </div>
+        </div>
+
+        <!-- Tiquete: el elemento distintivo del sitio -->
+        <div class="tiquete-marco" aria-label="Resumen de habilidades en forma de tiquete de caja">
+          <div class="tiquete">
+            <div class="tiquete__cabeza">
+              <strong>JLH · SISTEMAS</strong>
+              <span>Jamundí, Valle del Cauca</span>
+              <span>Tiquete n.º 2026-06</span>
+            </div>
+            <ul class="tiquete__items">
+              <li><span>HTML y CSS</span><span>✔</span></li>
+              <li><span>JavaScript</span><span>✔</span></li>
+              <li><span>Bootstrap</span><span>✔</span></li>
+              <li><span>Java (POO)</span><span>✔</span></li>
+              <li><span>SQL</span><span>✔</span></li>
+              <li><span>Git y GitHub</span><span>✔</span></li>
+              <li><span>Google Cloud Data</span><span>en curso</span></li>
+            </ul>
+            <div class="tiquete__subtotal">
+              <div><span>Semestre</span><span>6.º</span></div>
+              <div><span>Experiencia laboral</span><span>4 años</span></div>
+            </div>
+            <div class="tiquete__total">
+              <span>TOTAL</span>
+              <span>Listo para practicar</span>
+            </div>
+            <p class="tiquete__pie">Antes cuadraba cajas.<br>Ahora escribo el sistema.</p>
+            <div class="tiquete__barras" aria-hidden="true"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE MÍ -->
+    <section id="sobre-mi" class="seccion">
+      <div class="contenedor seccion__rejilla">
+        <h2>Sobre mí</h2>
+        <div class="prosa">
+          <p>Estudio sexto semestre de Ingeniería de Sistemas en la Fundación Universitaria Católica Lumen Gentium (Unicatólica). Hice el bootcamp de Desarrollo Web Full Stack del Ministerio TIC y Talento Tech, y actualmente curso el Certificado de Google Cloud Data Analytics.</p>
+          <p>Antes de programar trabajé cerca de cuatro años en restaurantes y logística: fui cajero principal, administrador junior y ayudante de operaciones. Ahí aprendí a trabajar bajo presión, a manejar inventarios y a entender los problemas que un buen sistema puede resolver.</p>
+          <p>Busco una práctica profesional donde pueda aportar en desarrollo web, análisis de datos o soporte de TI.</p>
+        </div>
+      </div>
+
+      <div class="contenedor seccion__rejilla habilidades">
+        <h3>Habilidades</h3>
+        <dl class="habilidades__lista">
+          <div><dt>Desarrollo web</dt><dd>HTML5, CSS3 (animaciones y transiciones), JavaScript, Bootstrap</dd></div>
+          <div><dt>Programación</dt><dd>Java con programación orientada a objetos</dd></div>
+          <div><dt>Datos</dt><dd>SQL, estadística, Excel, fundamentos de Google Cloud</dd></div>
+          <div><dt>Herramientas</dt><dd>Git, GitHub, Visual Studio Code, sistema INFOR</dd></div>
+          <div><dt>Idiomas</dt><dd>Español nativo, inglés intermedio (B1–B2)</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="seccion seccion--alterna">
+      <div class="contenedor">
+        <h2>Proyectos</h2>
+
+        <article class="proyecto">
+          <div class="proyecto__info">
+            <h3>Talleres de desarrollo web</h3>
+            <p>Siete talleres del bootcamp: tablas, formularios con validaciones, transiciones, animaciones con keyframes y un sitio multipágina sobre dinosaurios.</p>
+            <ul class="etiquetas"><li>HTML</li><li>CSS</li><li>Bootstrap</li></ul>
+          </div>
+          <div class="proyecto__enlaces">
+            <a href="https://jhoyos-dev.github.io/bootcamp-desarrollo-web/" class="enlace enlace--vivo" target="_blank" rel="noopener">Ver en vivo</a>
+            <a href="https://github.com/jhoyos-dev/bootcamp-desarrollo-web" class="enlace" target="_blank" rel="noopener">Ver código</a>
+          </div>
+        </article>
+
+        <article class="proyecto">
+          <div class="proyecto__info">
+            <h3>Programación orientada a objetos en Java</h3>
+            <p>Seis proyectos de la universidad: restaurante, hotel, biblioteca con arreglos de objetos, y jerarquías de animales y cuerpos celestes con herencia y clases abstractas.</p>
+            <ul class="etiquetas"><li>Java</li><li>POO</li></ul>
+          </div>
+          <div class="proyecto__enlaces">
+            <a href="https://github.com/jhoyos-dev/java-poo" class="enlace" target="_blank" rel="noopener">Ver código</a>
+          </div>
+        </article>
+
+        <article class="proyecto">
+          <div class="proyecto__info">
+            <h3>Calculadora de compras y lógica en JavaScript</h3>
+            <p>Una calculadora web que pide la cantidad y el precio de cada producto, valida los datos y suma el total, más ejercicios de condicionales y ciclos.</p>
+            <ul class="etiquetas"><li>JavaScript</li><li>Node.js</li></ul>
+          </div>
+          <div class="proyecto__enlaces">
+            <a href="https://jhoyos-dev.github.io/javascript-ejercicios/04-calculadora-compras/" class="enlace enlace--vivo" target="_blank" rel="noopener">Ver en vivo</a>
+            <a href="https://github.com/jhoyos-dev/javascript-ejercicios" class="enlace" target="_blank" rel="noopener">Ver código</a>
+          </div>
+        </article>
+
+        <article class="proyecto proyecto--pendiente">
+          <div class="proyecto__info">
+            <h3>Sitio web de Simon's Fast Food</h3>
+            <p>Sitio oficial para un restaurante de comidas rápidas en WordPress y Bootstrap 5, con menú, contacto por WhatsApp y domicilios por Rappi. Proyecto en equipo, en planeación.</p>
+            <ul class="etiquetas"><li>WordPress</li><li>Bootstrap</li><li>MySQL</li></ul>
+          </div>
+          <div class="proyecto__enlaces">
+            <a href="https://github.com/jhoyos-dev/simons-fast-food-web" class="enlace" target="_blank" rel="noopener">Ver repositorio</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- FORMACIÓN -->
+    <section id="formacion" class="seccion">
+      <div class="contenedor seccion__rejilla">
+        <h2>Formación</h2>
+        <ol class="linea">
+          <li><span class="linea__fecha">Actual</span><div><strong>Ingeniería de Sistemas</strong><span>Unicatólica, Cali · 6.º semestre</span></div></li>
+          <li><span class="linea__fecha">2026</span><div><strong>Certificado de Google Cloud Data Analytics</strong><span>Google · en curso</span></div></li>
+          <li><span class="linea__fecha">2024</span><div><strong>Bootcamp Desarrollo Web Full Stack</strong><span>Ministerio TIC y Talento Tech</span></div></li>
+          <li><span class="linea__fecha">2023</span><div><strong>Inglés B1–B2</strong><span>Centro Cultural Colombo Americano</span></div></li>
+          <li><span class="linea__fecha">2022</span><div><strong>Técnico en Servicio de Restaurante y Bar</strong><span>SENA</span></div></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="seccion seccion--contacto">
+      <div class="contenedor">
+        <h2>Contacto</h2>
+        <p class="contacto__intro">Si tienes una vacante de práctica o quieres saber más de mis proyectos, escríbeme.</p>
+        <a href="mailto:joseluishoyossalazar@outlook.com" class="contacto__correo">joseluishoyossalazar@outlook.com</a>
+        <ul class="contacto__redes">
+          <li><a href="https://github.com/jhoyos-dev" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/TU-ENLACE-DE-LINKEDIN" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="docs/Hoja_de_Vida_Jose_Luis_Hoyos.pdf" download>Hoja de vida (PDF)</a></li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor">
+      <p>Hecho por Jose Luis Hoyos Salazar con HTML, CSS y JavaScript. Publicado en GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
