@@ -5,17 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jose Luis Hoyos Salazar | Estudiante de Ingeniería de Sistemas</title>
   <meta name="description" content="Portafolio de Jose Luis Hoyos Salazar, estudiante de Ingeniería de Sistemas en Cali, Colombia. Desarrollo web y análisis de datos.">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧾</text></svg>">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%2315337A'/><text x='50' y='66' font-family='Arial' font-weight='700' font-size='46' fill='white' text-anchor='middle'>JH</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
 
   <header class="barra">
     <div class="contenedor barra__interior">
-      <a href="#inicio" class="barra__marca">Jose Luis Hoyos</a>
+      <a href="#inicio" class="barra__marca"><span class="barra__iniciales" aria-hidden="true">JH</span> Jose Luis Hoyos</a>
       <button class="barra__boton" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">
         <span></span><span></span><span></span>
       </button>
@@ -34,45 +34,32 @@
     <section id="inicio" class="portada">
       <div class="contenedor portada__rejilla">
         <div class="portada__texto">
-          <img src="img/foto.jpg" alt="Foto de Jose Luis Hoyos Salazar" class="portada__foto" width="96" height="96">
-          <h1>Jose Luis Hoyos Salazar</h1>
-          <p class="portada__rol">Estudiante de Ingeniería de Sistemas en Cali, Colombia. Construyo páginas web y me estoy formando en análisis de datos.</p>
           <p class="portada__estado"><span class="punto" aria-hidden="true"></span> Disponible para práctica profesional de 6 meses</p>
+          <h1>Jose Luis Hoyos Salazar</h1>
+          <p class="portada__cargo">Estudiante de Ingeniería de Sistemas · Desarrollo web y análisis de datos</p>
+          <p class="portada__rol">Construyo sitios web con HTML, CSS y JavaScript, y me estoy formando en análisis de datos con SQL y Google Cloud. Mi experiencia en operaciones e inventarios me ayuda a entender los procesos que la tecnología puede mejorar.</p>
           <div class="portada__acciones">
             <a href="#proyectos" class="boton boton--principal">Ver proyectos</a>
             <a href="docs/Hoja_de_Vida_Jose_Luis_Hoyos.pdf" class="boton boton--secundario" download>Descargar hoja de vida</a>
           </div>
+          <ul class="portada__redes">
+            <li><a href="https://github.com/jhoyos-dev" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/joseluishoyos-dev" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            <li><a href="mailto:joseluishoyossalazar@outlook.com">Correo</a></li>
+          </ul>
         </div>
+        <div class="portada__imagen">
+          <img src="img/foto.jpg" alt="Foto de Jose Luis Hoyos Salazar" class="portada__foto" width="320" height="320">
+        </div>
+      </div>
 
-        <!-- Tiquete: el elemento distintivo del sitio -->
-        <div class="tiquete-marco" aria-label="Resumen de habilidades en forma de tiquete de caja">
-          <div class="tiquete">
-            <div class="tiquete__cabeza">
-              <strong>JLH · SISTEMAS</strong>
-              <span>Jamundí, Valle del Cauca</span>
-              <span>Tiquete n.º 2026-06</span>
-            </div>
-            <ul class="tiquete__items">
-              <li><span>HTML y CSS</span><span>✔</span></li>
-              <li><span>JavaScript</span><span>✔</span></li>
-              <li><span>Bootstrap</span><span>✔</span></li>
-              <li><span>Java (POO)</span><span>✔</span></li>
-              <li><span>SQL</span><span>✔</span></li>
-              <li><span>Git y GitHub</span><span>✔</span></li>
-              <li><span>Google Cloud Data</span><span>en curso</span></li>
-            </ul>
-            <div class="tiquete__subtotal">
-              <div><span>Semestre</span><span>6.º</span></div>
-              <div><span>Experiencia laboral</span><span>4 años</span></div>
-            </div>
-            <div class="tiquete__total">
-              <span>TOTAL</span>
-              <span>Listo para practicar</span>
-            </div>
-            <p class="tiquete__pie">Antes cuadraba cajas.<br>Ahora escribo el sistema.</p>
-            <div class="tiquete__barras" aria-hidden="true"></div>
-          </div>
-        </div>
+      <div class="contenedor">
+        <dl class="datos">
+          <div><dt>Formación</dt><dd>Ingeniería de Sistemas, 6.º semestre</dd></div>
+          <div><dt>Universidad</dt><dd>Unicatólica, Cali</dd></div>
+          <div><dt>Ubicación</dt><dd>Jamundí, Valle del Cauca</dd></div>
+          <div><dt>Idiomas</dt><dd>Español nativo · Inglés B1–B2</dd></div>
+        </dl>
       </div>
     </section>
 
