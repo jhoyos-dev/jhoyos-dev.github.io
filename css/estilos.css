@@ -179,6 +179,7 @@ h3 { font-size: 1.15rem; font-weight: 600; }
   width: 20px;
   height: 20px;
   flex-shrink: 0;
+  fill: white;
 }
 
 .contacto__redes { list-style: none; padding: 0; margin: 2rem 0 0; display: flex; flex-wrap: wrap; gap: 1.5rem; }
