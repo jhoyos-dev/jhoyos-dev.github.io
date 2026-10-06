@@ -224,4 +224,3 @@ h3 { font-size: 1.15rem; font-weight: 600; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
 }
-Fix: Remove duplicate CSS rules that were breaking WhatsApp button layout
